@@ -1453,7 +1453,7 @@ ol {
 }
 
 .listing__text__top__left {
-	float: center;
+	float: left;
 }
 
 .listing__text__top__left h5 {
@@ -1500,14 +1500,13 @@ ol {
 }
 
 .listing .listing__list .listing__item {
-	max-width: calc(50% - 30px);
+	max-width: calc(25% - 30px);
 	float: left;
 	margin-right: 30px;
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 50%;
 	flex: 0 0 50%;
 	width: 100%;
-	height: 100%;
 }
 
 .listing__category {
@@ -1546,7 +1545,7 @@ ol {
 }
 
 .listing__item__pic {
-	height: 260px;
+	height: 150px;
 	position: relative;
 }
 

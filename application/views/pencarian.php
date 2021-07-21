@@ -1,4 +1,13 @@
-<div class="listing">
+<div class="listing nice_scroll">
+    <div class="listing__text__top">
+        <div class="listing__text__top__left">
+            <h3>Hasil Pencarian</h3>
+        </div>
+        <div class="listing__text__top__right">
+            <h5>Rumah Makan</h5>
+            <span>18 Results Found</span>
+        </div>
+    </div>
     <div class="listing__list">
         <?php foreach ($tpp as $tpm) : ?>
 
@@ -13,21 +22,11 @@
                         <ul>
                             <li><span class="icon_pin_alt"></span> <?php echo $tpm->alamat ?></li>
                             <li><span class="icon_phone"></span> <?php echo $tpm->tlp_tpm ?></li>
-                            <a href="#" class="btn btn-sm btn-success">Detail</a>
+                            <!-- <a href="#" class="btn btn-sm btn-success">Detail</a> -->
                         </ul>
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="card" style="width: 30rem;">
-                <img src="<?php echo base_url().'upload/'.$tpm->gambar ?>" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><?php echo $tpm->nm_tpm ?></h5>
-                    <small><span class="icon_pin_alt"></span> <?php echo $tpm->alamat ?></small>
-                    <p class="card-text"><span class="icon_phone"></span> <?php echo $tpm->tlp_tpm ?></p>
-                    <a href="#" class="btn btn-sm btn-success">Detail</a>
-                </div>
-            </div> -->
 
         <?php endforeach; ?>
     </div>
