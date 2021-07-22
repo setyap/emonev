@@ -1605,7 +1605,7 @@ ol {
 .listing__item__text {
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 .listing__item__text__inside h5 {

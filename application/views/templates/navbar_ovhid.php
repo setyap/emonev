@@ -1,11 +1,11 @@
-<body>
+<body class="ov-hid">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
     <!-- Header Section Begin -->
-    <header class="header">
+    <header class="header header--normal">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
